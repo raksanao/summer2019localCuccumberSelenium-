@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T19:12:47.727Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1225546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Test login with different types",
+        "description": "",
+        "id": "login-as-different-user-types;test-login-with-different-types;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3069796,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "the user logs in as \"driver\"",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-23T19:12:47.937Z",
+        "before": [
+          {
+            "result": {
+              "duration": 315062,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Test login with different types",
+        "description": "",
+        "id": "login-as-different-user-types;test-login-with-different-types;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 797446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "the user logs in as \"driver\"",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-23T19:12:47.953Z",
+        "before": [
+          {
+            "result": {
+              "duration": 336291,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Test login with different types",
+        "description": "",
+        "id": "login-as-different-user-types;test-login-with-different-types;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 143007,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "the user logs in as \"driver\"",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login as different user types",
+    "description": "",
+    "id": "login-as-different-user-types",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountType.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T19:12:48.027Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1231085,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login as given user",
+        "description": "",
+        "id": "contact-page;login-as-given-user",
+        "after": [
+          {
+            "result": {
+              "duration": 103936,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "the user in login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156683,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user  login using following credentials",
+            "match": {
+              "location": "ContactsStepDef.user_login_using_following_credentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "user1"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "fname",
+                  "ruxa"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "olim"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "the user should be able to  login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Contact page",
+    "description": "",
+    "id": "contact-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contacts.feature",
+    "tags": []
+  }
+]
