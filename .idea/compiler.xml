@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="summer2019localCuccumberSelenium" />
+        <module name="summer2019localCuccumberSelenium-" />
       </profile>
     </annotationProcessing>
   </component>
