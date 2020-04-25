@@ -3,12 +3,14 @@ package com.vytruck.utilities;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class BrowserUtils {
     /**
@@ -195,7 +197,6 @@ public class BrowserUtils {
         }
     }
 
-
     /**
      * Waits for element to be not stale
      *
@@ -333,8 +334,6 @@ public class BrowserUtils {
         jse.executeScript(command);
 
     }
-
-
     /**
      * This method will recover in case of exception after unsuccessful the click,
      * and will try to click on element again.
@@ -362,7 +361,6 @@ public class BrowserUtils {
             }
         }
     }
-
     /**
      *  checks that an element is present on the DOM of a page. This does not
      *    * necessarily mean that the element is visible.
